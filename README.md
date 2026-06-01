@@ -2,6 +2,17 @@
 
 A cloud-hosted URL Shortener built using Java Servlets, JSP, JDBC, PostgreSQL, Docker, and Render. The application generates unique short URLs, redirects users to original URLs, tracks click counts, and stores data in a cloud PostgreSQL database.
 
+## Preview
+
+### Home Page
+<img width="1365" height="687" alt="URL" src="https://github.com/user-attachments/assets/46f16fb6-9238-4033-9f70-679da108e950" />
+
+### Generated URL
+<img width="1365" height="687" alt="Shorten URL" src="https://github.com/user-attachments/assets/9f45c23c-eb98-43da-82de-9527e668ccf7" />
+
+### Link Details
+<img width="1365" height="686" alt="View Details" src="https://github.com/user-attachments/assets/15f1444f-bf97-48c4-a7f6-8d3650b309a8" />
+
 ## Features
 
 * Generate unique short URLs for long links
