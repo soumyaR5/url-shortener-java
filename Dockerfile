@@ -10,6 +10,6 @@ RUN mvn clean package -DskipTests
 # Runtime Stage
 FROM tomcat:10.1-jdk17
 
-COPY --from=builder /app/target/*.war /usr/local/tomcat/webapps/
+COPY --from=builder /app/target/*.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
